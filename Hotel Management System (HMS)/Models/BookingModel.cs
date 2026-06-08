@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System__HMS_.Models
 {
-    internal class BookingModel
+    public  class BookingModel
     {
+        public string bookingId { get; set; }
+        public string guestId { get; set; }
+        public string roomNumber { get; set; }
+        public string checkInDate { get; set; }
+        public string checkOutDate { get; set; }
+        public double totalPrice { get; set; }
+        public string status { get; set; }
+        public List<ReviewModel> bookingReviews { get; set; } 
+
     }
 }
