@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System__HMS_.Models
 {
-    public class RoomModel
+    public static class RoomModel
     {
-       public string roomNumber { get; set; }
-        public string roomType { get; set; }
-        public double pricePerNight { get; set; }
-        public bool isAvailable { get; set; }
-        public int floor {  get; set; }
+       public static string roomNumber { get; set; }
+        public static string roomType { get; set; }
+        public static double pricePerNight { get; set; }
+        public static bool isAvailable { get; set; }
+        public static int floor {  get; set; }
     }
 }
