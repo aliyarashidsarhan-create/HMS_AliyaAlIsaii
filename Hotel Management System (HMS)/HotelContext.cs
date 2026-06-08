@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System__HMS_
 {
-    internal class HotelContext
+    public  class HotelContext
     {
     }
 }
