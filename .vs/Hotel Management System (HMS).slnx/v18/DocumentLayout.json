@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\services\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\models\\guestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|solutionrelative:hotel management system (hms)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C8D2EF4-6E11-CBBC-DC04-09422128FB2D}|Hotel Management System (HMS)\\Hotel Management System (HMS).csproj|c:\\users\\aliya\\onedrive\\desktop\\back\\hotel management system (hms)\\hotel management system (hms)\\models\\roommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +63,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GuestModel.cs",
+              "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\GuestModel.cs",
+              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\GuestModel.cs",
+              "ToolTip": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\GuestModel.cs",
+              "RelativeToolTip": "Hotel Management System (HMS)\\Models\\GuestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T07:50:09.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\ReviewService.cs",
+              "RelativeToolTip": "Hotel Management System (HMS)\\Services\\ReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:20:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "RelativeToolTip": "Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:28:26.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Services\\EmailService.cs",
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T08:17:35.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BookingModel.cs",
               "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\BookingModel.cs",
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\BookingModel.cs",
@@ -76,25 +123,11 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\BookingModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:00:29.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:00:29.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GuestModel.cs",
-              "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\GuestModel.cs",
-              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\GuestModel.cs",
-              "ToolTip": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\GuestModel.cs",
-              "RelativeToolTip": "Hotel Management System (HMS)\\Models\\GuestModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:09.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "StaffModel.cs",
               "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\StaffModel.cs",
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\StaffModel.cs",
@@ -102,12 +135,11 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\StaffModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:12:51.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:12:51.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RoomModel.cs",
               "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\RoomModel.cs",
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\RoomModel.cs",
@@ -115,12 +147,11 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\RoomModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:00:13.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:00:13.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ReviewModel.cs",
               "DocumentMoniker": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Models\\ReviewModel.cs",
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Models\\ReviewModel.cs",

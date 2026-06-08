@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System__HMS_.Services
 {
-    public class EmailService
+    public static class EmailService
     {
         public static string SystemEmail = "hms@grandcodeline.om";
         public static void SendEmail(string to ,string subject,string body)

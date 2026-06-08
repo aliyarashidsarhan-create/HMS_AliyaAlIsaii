@@ -7,20 +7,30 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System__HMS_.Services
 {
-   public class GuestService
+    public static class GuestService
     {
-        public void DisplayAllGuests(GuestModel)
+        public static void DisplayAllGuests()
         {
-            Console.WriteLine($"Guste Id :{guestId}");
-        }
-
-        public static bool FindGuestById(guestBookings, string guestId)
-        {
-            bool result = false;
-            if (guestId != null)
+            List<GuestModel> GuestM = new List<GuestModel>();
+            foreach (GuestModel guest in GuestM)
             {
-
+                Console.WriteLine($"Guste Id :{guest.guestId}");
+                Console.WriteLine($"Full Name is :{guest.fullName}");
+                Console.WriteLine($"Email is :{guest.email}");
+                Console.WriteLine($"Phone Number :{guest.phoneNumber}");
             }
-
+        }
+        public static GuestModel FindGuestById(List<GuestModel> guests, string guestId)
+        {
+            foreach (GuestModel guest in guests)
+            {
+                if(guest.guestId == guestId)
+                { 
+                    return guest;
+                }
+            }
+            return null;
+        }
+        
     }
 }
