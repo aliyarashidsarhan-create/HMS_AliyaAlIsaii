@@ -9,10 +9,10 @@ namespace Hotel_Management_System__HMS_.Services
 {
     public static class GuestService
     {
-        public static void DisplayAllGuests()
+        public static void DisplayAllGuests(List<GuestModel> guests)
         {
-            List<GuestModel> GuestM = new List<GuestModel>();
-            foreach (GuestModel guest in GuestM)
+            
+            foreach (GuestModel guest in guests)
             {
                 Console.WriteLine($"Guste Id :{guest.guestId}");
                 Console.WriteLine($"Full Name is :{guest.fullName}");

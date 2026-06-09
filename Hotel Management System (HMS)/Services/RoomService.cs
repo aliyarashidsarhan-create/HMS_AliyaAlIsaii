@@ -10,45 +10,45 @@ namespace Hotel_Management_System__HMS_.Services
 {
     public static class RoomService
     {
-        public static void DisplayAllRooms(List<RoomModel> room)
+        public static void DisplayAllRooms(List<RoomModel> rooms)
         {
           
-         foreach (RoomModel rooms in room)
+         foreach (RoomModel room in rooms)
             {
-             Console.WriteLine(rooms.roomNumber);
-             Console.WriteLine(rooms.roomType);
-             Console.WriteLine(rooms.pricePerNight);
-             Console.WriteLine(rooms.isAvailable);
+             Console.WriteLine(room.roomNumber);
+             Console.WriteLine(room.roomType);
+             Console.WriteLine(room.pricePerNight);
+             Console.WriteLine(room.isAvailable);
 
 
             }
         }
         public static void DisplayAvailableRooms(List<RoomModel> rooms)
-        {foreach (RoomModel Rooms in rooms)
+        {foreach (RoomModel room in rooms)
             {
-              if(Rooms.isAvailable)
+              if(room.isAvailable== true)
                 {
-                    Console.WriteLine(Rooms.roomNumber);
-                    Console.WriteLine(Rooms.roomType);
-                    Console.WriteLine(Rooms.pricePerNight);
+                    Console.WriteLine(room.roomNumber);
+                    Console.WriteLine(room.roomType);
+                    Console.WriteLine(room.pricePerNight);
                 }
             }
 
         }
-        public static void FindRoomByNumber(List<RoomModel> room , string roomNumber)
+        public static RoomModel FindRoomByNumber(List<RoomModel> rooms , string roomNumber)
         {
-            foreach (RoomModel Room in room)
+            foreach (RoomModel room in rooms)
             {
-                if (Room.roomNumber == roomNumber)
+                if (room.roomNumber == roomNumber)
                 {
-                    return Room;
+                    return room;
                 }
             }
             return null;
         }
        public static double CalculateTotalPrice(RoomModel room ,int nights )
         {
-          return pricePerNight * nights;
+          return room.pricePerNight * nights;
         }
     }
 }

@@ -18,9 +18,9 @@ namespace Hotel_Management_System__HMS_.Services
                  "total Price " + booking.totalPrice);
             }
         }
-        public static void FindBookingById(List<BookingModel> Model, string bookingId)
+        public static BookingModel FindBookingById(List<BookingModel> bookings, string bookingId)
         {
-            foreach (BookingModel booking in Model)
+            foreach (BookingModel booking in bookings)
             {
                 if (booking.bookingId == bookingId)
                 {
@@ -31,17 +31,22 @@ namespace Hotel_Management_System__HMS_.Services
         }
         public static bool CancelBooking(BookingModel booking)
         {
-            if (booking.status == cancelled)
+            if (booking.status == "cancelled")
             {
-                return true;
+                return false;
             }
+            booking.status = "cancelled";
+            return true;
         }
-        public static bool CompleteBooking(BookingModel cbooking)
+        public static bool CompleteBooking(BookingModel booking ,RoomModel room)
         {
-            if (cbooking == null)
+            if (booking.status !="Confirmed")
             {
-
+             return false;
             }
+            booking.status = "completed";
+            room.isAvailable = true;
+            return true;
         }
     }
 }

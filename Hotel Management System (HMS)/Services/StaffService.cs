@@ -13,25 +13,37 @@ namespace Hotel_Management_System__HMS_.Services
         {
             foreach (StaffModel staff in staffModels)
             {
-                Console.WriteLine("staff id :"+staff.staffId + "role "+staff.role
+                Console.WriteLine("staff id :"+staff.staffId +"Full Name"+staff.fullName+ "role "+staff.role
                     + "is On Duty "+staff.isOnDuty);
             }
 
 
         }
-        public static int  FindStaffById(List<StaffModel> staffModels, string satffId)
+        public static StaffModel FindStaffById(List<StaffModel> staffModels, string satffId)
         {
             foreach(StaffModel staff in staffModels)
             {
                 if(staff.staffId == satffId)
-                    return 0;
+                {
+                    return staff;
+                }
+                   
             }
             return null;
           
         }
         public static void ToggleDutyStatus(StaffModel staff)
         {
-         
+            if (staff.isOnDuty)
+            {
+                staff.isOnDuty = false;
+            }
+            else
+            {
+                staff.isOnDuty = true;
+            }
+            Console.WriteLine(" new Status :"+staff.isOnDuty);
+
         }
 
 
