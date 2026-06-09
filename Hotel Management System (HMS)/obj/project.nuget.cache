@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Ad1vAc+3Agk=",
+  "dgSpecHash": "MwodhEP2R8Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
+  "projectFilePath": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aliya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\aliya\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\aliya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
-    "C:\\Users\\aliya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.26\\microsoft.netcore.app.host.win-x64.8.0.26.nupkg.sha512"
+    "C:\\Users\\Sohar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Sohar\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Sohar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Sohar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
   ],
   "logs": []
 }

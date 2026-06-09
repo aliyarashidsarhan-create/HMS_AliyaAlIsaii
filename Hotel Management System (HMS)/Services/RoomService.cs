@@ -10,27 +10,27 @@ namespace Hotel_Management_System__HMS_.Services
 {
     public static class RoomService
     {
-        public static void DisplayAllRooms(List<RoomModel> roomM)
+        public static void DisplayAllRooms(List<RoomModel> room)
         {
           
-         foreach (RoomModel Room in RoomM)
+         foreach (RoomModel rooms in room)
             {
-             Console.WriteLine(Room.roomNumber);
-             Console.WriteLine(Room.roomType);
-             Console.WriteLine(Room.pricePerNight);
-             Console.WriteLine(Room.isAvailable);
+             Console.WriteLine(rooms.roomNumber);
+             Console.WriteLine(rooms.roomType);
+             Console.WriteLine(rooms.pricePerNight);
+             Console.WriteLine(rooms.isAvailable);
 
 
             }
         }
         public static void DisplayAvailableRooms(List<RoomModel> rooms)
-        {foreach (RoomModel Room in rooms)
+        {foreach (RoomModel Rooms in rooms)
             {
-              if(Room.isAvailable)
+              if(Rooms.isAvailable)
                 {
-                    Console.WriteLine(Room.roomNumber);
-                    Console.WriteLine(Room.roomType);
-                    Console.WriteLine(Room.pricePerNight);
+                    Console.WriteLine(Rooms.roomNumber);
+                    Console.WriteLine(Rooms.roomType);
+                    Console.WriteLine(Rooms.pricePerNight);
                 }
             }
 
