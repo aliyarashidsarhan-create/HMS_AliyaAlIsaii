@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj": {}
+    "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj": {
+    "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
+        "projectUniqueName": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
         "projectName": "Hotel Management System (HMS)",
-        "projectPath": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
-        "packagesPath": "C:\\Users\\Sohar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\obj\\",
+        "projectPath": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\Hotel Management System (HMS).csproj",
+        "packagesPath": "C:\\Users\\aliya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aliya\\OneDrive\\Desktop\\back\\Hotel Management System (HMS)\\Hotel Management System (HMS)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sohar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aliya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,19 +65,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.26, 8.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.26, 8.0.26]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.26, 8.0.26]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.27, 8.0.27]"
+              "version": "[8.0.26, 8.0.26]"
             }
           ],
           "frameworkReferences": {
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,7 +24,8 @@ namespace Hotel_Management_System__HMS_.Services
             }
         }
         public static void DisplayAvailableRooms(List<RoomModel> rooms)
-        {foreach (RoomModel room in rooms)
+        {
+            foreach (RoomModel room in rooms)
             {
               if(room.isAvailable== true)
                 {

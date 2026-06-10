@@ -22,7 +22,7 @@ namespace Hotel_Management_System__HMS_
             Console.WriteLine("Enter Phone Number ");
             string phoneNumber = Console.ReadLine();
 
-            context.guests.Add(new Models.GuestModel
+            context.guests.Add(new GuestModel
             {
                 guestId = guestId,
                 fullName = fullName,
@@ -46,32 +46,25 @@ namespace Hotel_Management_System__HMS_
             Console.WriteLine("Enter Floor Number");
             int floor = Convert.ToInt32(Console.ReadLine());
 
-            bool isAvailable = true;
+             
             context.rooms.Add(new RoomModel
             {
                 roomNumber = roomNumber,
                 roomType = roomType,
                 pricePerNight = priceInput,
-                floor = floor
-
+                floor = floor,
+                isAvailable = true
             } );
             Console.WriteLine("Adding Room Succesfuly");
 
         }
         public static void DisplayAvailableRooms(HotelContext context)
         {
-            foreach (RoomModel room in context.rooms)
+            RoomService.DisplayAvailableRooms(context.rooms);
+            if(context.rooms.Count == 0) 
             {
-                if (room.isAvailable)
-                {
-                    Console.WriteLine($"Room Number: {room.roomNumber}, Room Type: {room.roomType}," +
-                        $" Price Per Night: {room.pricePerNight}, Floor: {room.floor}");
-                }
-                else
-                {
-                    Console.WriteLine("No Room in System");
-                }
-            };
+                Console.WriteLine("No Room in System");
+            }
         }
         public static void AddStaff(HotelContext context)
         {
@@ -96,17 +89,7 @@ namespace Hotel_Management_System__HMS_
         }
         public static void DisplayAllStaff(HotelContext context)
         {
-            foreach (StaffModel staff in context.staff)
-            {
-                if (staff.isOnDuty)
-                {
-                    Console.WriteLine($"Staff Id: {staff.staffId}, Full Name: {staff.fullName}, Role: {staff.role}, Email: {staff.email}");
-                }
-                else
-                {
-                    Console.WriteLine("No Staff in System");
-                }
-            }
+           StaffService.DisplayAllStaff(context.staff);
         }
         public static void BookRoom(HotelContext context)
         {
@@ -114,18 +97,45 @@ namespace Hotel_Management_System__HMS_
             string guestId = Console.ReadLine();
             Console.WriteLine("Enter Room Number");
             string roomNumber = Console.ReadLine();
-            Console.WriteLine("Enter Email ");
-            string email = Console.ReadLine();
+            GuestModel guest = GuestService.FindGuestById(context.guests, guestId);
+            RoomModel room = RoomService.FindRoomByNumber(context.rooms, roomNumber);
+
+            if (guest == null || room==null)
+            {
+                Console.WriteLine("Error Not Found Room or guest");
+                return;
+            }
+            if (room.isAvailable==false)
+            {
+                Console.WriteLine("Room not available");
+                return;
+            }
+            Console.WriteLine("Enter check In Date");
+            string checkInDate = Console.ReadLine();
+            Console.WriteLine("Enter  check Out Date");
+            string checkOutDate = Console.ReadLine();
+            Console.WriteLine("Enter  number Of Nights");
+            int numberOfNights = Convert.ToInt32(Console.ReadLine());
+
+            double totalPrice = RoomService.CalculateTotalPrice(room, numberOfNights);
+
+            Console.WriteLine("Enter booking Id");
+            string bookingId = Console.ReadLine();
+
 
             context.bookings.Add(new BookingModel
             {
-                bookingId = Guid.NewGuid().ToString(),
+                bookingId = bookingId,
                 guestId = guestId,
                 roomNumber = roomNumber,
-              
-            });
+                status="Confirmed"
 
-             EmailService.SendEmail(email, "Booking Cancelled", "Your booking [bookingId] has been cancelled");
+            });
+            room.isAvailable = false;
+            guest.guestBookings.Add(new BookingModel());
+
+            var guests = context.guests.Find(x => x.guestId == guestId);
+            EmailService.SendEmail(guests.email, "Booking Confirmed", "Your booking  has been cancelled");
            
         }
         public static void CancelBooking(HotelContext context)
@@ -140,13 +150,23 @@ namespace Hotel_Management_System__HMS_
                     Console.WriteLine("Booking Not Found ");
                    return;
                 }
-                else
+
+                bool isCanceled = BookingService.CancelBooking(booking);
+                if (isCanceled ==false)
                 {
-                    Console.WriteLine("Failed to Cancel Booking Succesfully ");
+                    Console.WriteLine("Booking already cancelled");
+                    return;
                 }
-            }
+
+                RoomModel room = RoomService.FindRoomByNumber(context.rooms, booking.roomNumber);
+                if(room.isAvailable==null)
+                {
+                    room.isAvailable = true;
+                }
+                GuestModel guest = GuestService.FindGuestById(context.guests, booking.guestId);
+
             EmailService.SendEmail(guest.email, "Booking Cancelled", "Your booking "+bookingId+" has been cancelled");
-        }
+        }}
         public static void AddReviewToBooking(HotelContext context)
         {
             Console.WriteLine("Enter Booking  Id");
@@ -167,6 +187,10 @@ namespace Hotel_Management_System__HMS_
             string reviewId = Console.ReadLine();
             Console.WriteLine("Enter Rating 1-5");
             int rating = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < rating; i++) 
+            {
+
+            }
 
             Console.WriteLine("Add Comment");
             string comment = Console.ReadLine();
@@ -215,6 +239,7 @@ namespace Hotel_Management_System__HMS_
             }
 
         }
+
         public static void CompleteBooking(HotelContext context)
         {
             Console.WriteLine("Enter Booking Id");
@@ -225,10 +250,13 @@ namespace Hotel_Management_System__HMS_
                 Console.WriteLine("Booking Not Found ");
                 return;
             };
+           var guest = context.guests.Find(x => x.guestId == booking.guestId);
+               
+            
 
-
-            EmailService.SendEmail(email, "Stay Completed — Share Your Experience ", "Your stay at Grand Codeline Hotel is complete. Please leave a review!");
+            EmailService.SendEmail(guest.email, "Stay Completed — Share Your Experience ", "Your stay at Grand Codeline Hotel is complete. Please leave a review!");
         }
+
         public static void DisplayRoomReviewSummary(HotelContext context)
         {
             Console.WriteLine("Enter Room Number");
@@ -241,14 +269,20 @@ namespace Hotel_Management_System__HMS_
                 return;
             };
         }
+
+
         public static void FullGuestProfile(HotelContext context)
         {
             Console.WriteLine("Enter Guest Id");
             string guestId = Console.ReadLine();
 
             GuestModel guest = GuestService.FindGuestById(context.guests, guestId);
+            Console.WriteLine(guest.fullName);  
+
 
         }
+
+
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Hotel Management System!");

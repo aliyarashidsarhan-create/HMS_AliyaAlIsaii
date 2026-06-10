@@ -62,21 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoomService.cs",
-              "DocumentMoniker": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Services\\RoomService.cs",
-              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Services\\RoomService.cs",
-              "ToolTip": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Services\\RoomService.cs",
-              "RelativeToolTip": "Hotel Management System (HMS)\\Services\\RoomService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T09:28:26.427Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -87,8 +74,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\StaffService.cs",
               "ViewState": "AgIAABoAAAAAAMA3CYAswC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T11:26:41.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T11:26:41.533Z"
             },
             {
               "$type": "Document",
@@ -100,8 +86,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\HotelContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T11:35:43.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T11:35:43.018Z"
             },
             {
               "$type": "Document",
@@ -111,10 +96,22 @@
               "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Program.cs",
               "ToolTip": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Program.cs",
               "RelativeToolTip": "Hotel Management System (HMS)\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAAAPIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-09T05:38:01.374Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\Sohar\\Desktop\\back-end\\HMS_AliyaAlIsaii\\Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "RelativeToolTip": "Hotel Management System (HMS)\\Services\\RoomService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T09:28:26.427Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\ReviewService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T09:20:49.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T09:20:49.067Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\GuestService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:24:23.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:24:23.645Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:17:35.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:17:35.678Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Services\\BookingService.cs",
               "ViewState": "AgIAABMAAAAAAAAAmJknwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T10:54:00.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T10:54:00.208Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\BookingModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:00:29.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:00:29.667Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\GuestModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T07:50:09.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T07:50:09.401Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\ReviewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:11:32.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:11:32.178Z"
             },
             {
               "$type": "Document",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\RoomModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:00:13.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:00:13.084Z"
             },
             {
               "$type": "Document",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "Hotel Management System (HMS)\\Models\\StaffModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T08:12:51.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T08:12:51.079Z"
             }
           ]
         }
